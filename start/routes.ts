@@ -19,5 +19,6 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+Route.post('/support-requests', 'SupportFormsController.store')
 
 Route.resource('/pets', 'PetsController').apiOnly()
